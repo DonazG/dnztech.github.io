@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synqo – Donaz Entertainment</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #a78bf5, #5b4fcf);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        header .icon span {
+            color: white;
+            font-size: 36px;
+            line-height: 1;
+        }
+
+        header h1 { font-size: 28px; font-weight: 700; }
+        header p  { color: #6e6e73; font-size: 15px; margin-top: 4px; }
+
+        nav {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            padding: 14px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover { text-decoration: underline; }
+
+        .container {
+            max-width: 720px;
+            margin: 48px auto;
+            padding: 0 24px;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 36px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 20px 0 8px;
+            color: #1d1d1f;
+        }
+
+        p  { color: #3d3d3f; font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 20px; color: #3d3d3f; font-size: 15px; }
+        li { margin-bottom: 6px; }
+
+        .badge {
+            display: inline-block;
+            background: #ede8fd;
+            color: #5b4fcf;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .contact-card {
+            background: #f5f5f7;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 12px;
+        }
+
+        .contact-card a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #6e6e73;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="icon"><span>S</span></div>
+    <h1>Synqo: AI Health Coach</h1>
+    <p>by Donaz Entertainment</p>
+</header>
+
+<nav>
+    <a href="#privacy">Privacy</a>
+    <a href="#support">Support</a>
+    <a href="#terms">Terms of Use</a>
+    <a href="synqo.html">Deutsch</a>
+</nav>
+
+<div class="container">
+
+    <section id="privacy">
+        <span class="badge">Privacy</span>
+        <h2>Privacy Policy</h2>
+        <p>Last updated: October 2026</p>
+        <p>Synqo processes health data, so this page explains exactly what happens with it. In short: Synqo has no server of its own, no user accounts, no ads and no analytics. Your data stays on your iPhone and in your own iCloud. We as the developer do not receive any of your data.</p>
+
+        <h3>Controller</h3>
+        <p>Donaz Entertainment by Robin Limprecht, contact: synqo.ai@icloud.com</p>
+
+        <h3>What data does the app process?</h3>
+        <ul>
+            <li><strong>Apple Health (read):</strong> sleep, heart rate, resting heart rate, HRV, steps, energy burned, workouts with route and heart rate, breathing, blood oxygen, weight, body fat, blood pressure, VO₂ max, mindfulness and, if you turn it on, cycle data. You decide in the Health prompt which data the app may see.</li>
+            <li><strong>Apple Health (write):</strong> only when you trigger it in the app or allow it in Settings: water, nutrition, body measurements (weight, BMI, body fat, lean mass) and mindful minutes.</li>
+            <li><strong>Your own entries:</strong> meals, water, body measurements, conversations with the coach, saved analyses and your settings (goals, sleep need, wake-up times).</li>
+        </ul>
+        <p>This data is used on your device for display, scores (recovery, strain, sleep), analyses, reminders and widgets. It is not sold, not used for advertising and not sent to us. Apple Health data is not used for data mining or profiling.</p>
+
+        <h3>Storage and iCloud</h3>
+        <p>Data is stored locally on your device. Your own entries are backed up and synced between your devices through your private iCloud (Apple CloudKit). This storage belongs to your Apple account and we have no access to it. Access keys (see below) are kept in your device's Keychain.</p>
+
+        <h3>AI features (optional)</h3>
+        <p>The AI features (coach, daily and weekly analysis, nutrition estimates, photo analysis of meals, reading body scale screenshots) are only active if you enter your own API key from a provider in Settings: Anthropic (Claude), OpenAI (ChatGPT) or Google (Gemini). When you use an AI feature, your iPhone sends the data needed for it (for example daily values, your question, a photo or a screenshot) <strong>directly to the provider you chose</strong>. We do not see this data. The provider's privacy terms apply to its processing. This can involve a transfer to countries outside the EU, for example the USA. You pay the costs for using it through your key with the provider. Without a key, no data is sent to AI providers.</p>
+
+        <h3>Open Food Facts</h3>
+        <p>When you search for a food or scan a barcode, the app sends the search term or barcode number to Open Food Facts (openfoodfacts.org) to find nutrition values. No health data is transmitted. For technical reasons the service receives your IP address.</p>
+
+        <h3>intervals.icu (optional)</h3>
+        <p>If you enter an API key from intervals.icu, the app fetches your workout and fitness data directly from there. The key is stored in the Keychain.</p>
+
+        <h3>Camera and photos</h3>
+        <p>The camera is used for meal photos and scanning barcodes, photos only when you choose them (for example a body scale screenshot). Images are processed on your device and only sent to an AI provider when you start the photo analysis.</p>
+
+        <h3>Maps</h3>
+        <p>The route of a workout is shown with Apple Maps. Apple's privacy terms apply to that.</p>
+
+        <h3>Notifications and widgets</h3>
+        <p>Reminders are local notifications of your device. Widgets read daily values from a shared storage on your device. No data leaves the device.</p>
+
+        <h3>No sharing, no ads</h3>
+        <p>Synqo contains no ads, no trackers and no analytics services. There is no registration.</p>
+
+        <h3>Deleting your data</h3>
+        <ul>
+            <li>Entries in the app can be deleted there.</li>
+            <li>If you delete the app, local data is removed. Remove data in your iCloud under Settings → [your name] → iCloud → Manage Storage.</li>
+            <li>Values saved in Apple Health are deleted in the Health app. Change permissions under Health → Sharing → Apps → Synqo.</li>
+            <li>You can remove API keys in the app's Settings.</li>
+        </ul>
+
+        <h3>Your rights</h3>
+        <p>Under the GDPR you have the right to access, rectification, erasure, restriction of processing and data portability, and the right to lodge a complaint with a data protection authority. Because we do not store any of your data, you can exercise these rights directly through your device, your Apple account and the providers mentioned. If you have questions, write to us.</p>
+
+        <h3>Children</h3>
+        <p>Synqo is not aimed at children.</p>
+
+        <h3>Changes</h3>
+        <p>If this policy changes, the updated version will be published on this page.</p>
+    </section>
+
+    <section id="support">
+        <span class="badge">Support</span>
+        <h2>Help &amp; contact</h2>
+        <p>Do you have a question, found a bug or have a suggestion? I would be happy to hear from you.</p>
+
+        <h3>Frequently asked questions</h3>
+        <ul>
+            <li><strong>How do I connect Apple Health?</strong><br>Open Settings (gear icon) → Apple Health and allow the data you want. You can change it later under Health → Sharing → Apps → Synqo.</li>
+            <li><strong>How do I get Garmin data into the app?</strong><br>Turn on the connection to Apple Health in Garmin Connect. Synqo then reads the values from Apple Health.</li>
+            <li><strong>How do I unlock the AI coach?</strong><br>Under Settings → AI coach, enter your own API key from Anthropic, OpenAI or Google. Costs depend on the provider.</li>
+            <li><strong>How do I log food and water?</strong><br>On the Nutrition page by search, barcode or photo. Log water on Today or Nutrition with the buttons.</li>
+            <li><strong>How do I add a body measurement?</strong><br>In the Body tab tap "Add measurement". You can choose a screenshot of your scale app or enter the values yourself.</li>
+            <li><strong>How do I add widgets?</strong><br>Press and hold the Home Screen, tap "+" and search for Synqo.</li>
+            <li><strong>How do I delete my data?</strong><br>See the section "Deleting your data" in the privacy policy.</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <div class="contact-card">
+            <p><strong>Donaz Entertainment by Robin Limprecht</strong></p>
+            <p>Email: <a href="mailto:synqo.ai@icloud.com">synqo.ai@icloud.com</a></p>
+        </div>
+    </section>
+
+    <section id="terms">
+        <span class="badge">Terms of Use</span>
+        <h2>Terms of Use</h2>
+        <p>By using Synqo you agree to the following terms.</p>
+
+        <h3>Purpose of the app</h3>
+        <p>Synqo is for information and guidance around fitness, sleep, nutrition and body values. The app is not a medical device and does not provide medical advice, diagnosis or treatment recommendations. For health questions, contact a doctor.</p>
+
+        <h3>Scores and AI answers</h3>
+        <p>Scores, forecasts and recommendations are estimates based on your data. AI answers can be incomplete or wrong. Check important information yourself. You use the app at your own risk.</p>
+
+        <h3>Third-party services</h3>
+        <p>For AI features you use your own API key. The costs and terms of the respective provider apply in addition and are your responsibility. The same applies to Apple Health, iCloud, Open Food Facts and intervals.icu.</p>
+
+        <h3>License</h3>
+        <p>Synqo is provided to you for personal use. You may not copy, modify or resell the app.</p>
+
+        <h3>Disclaimer</h3>
+        <p>The app is provided without warranty. We are only liable for calculation errors, data loss or damages from use in cases of intent and gross negligence and where the law mandatorily provides liability.</p>
+
+        <h3>Trademarks</h3>
+        <p>Apple, Apple Health, iCloud, Garmin, Claude, ChatGPT, Gemini and other names mentioned are trademarks of their respective owners. Synqo is not affiliated with or endorsed by these companies.</p>
+
+        <h3>Changes</h3>
+        <p>We reserve the right to update these terms at any time. The current version is always available on this page.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Donaz Entertainment by Robin Limprecht · Synqo: AI Health Coach · All rights reserved</p>
+</footer>
+
+</body>
+</html>
