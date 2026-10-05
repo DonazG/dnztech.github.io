@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synqo – DNZtech</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #a78bf5, #5b4fcf);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        header .icon span {
+            color: white;
+            font-size: 36px;
+            line-height: 1;
+        }
+
+        header h1 { font-size: 28px; font-weight: 700; }
+        header p  { color: #6e6e73; font-size: 15px; margin-top: 4px; }
+
+        nav {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            padding: 14px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover { text-decoration: underline; }
+
+        .container {
+            max-width: 720px;
+            margin: 48px auto;
+            padding: 0 24px;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 36px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 20px 0 8px;
+            color: #1d1d1f;
+        }
+
+        p  { color: #3d3d3f; font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 20px; color: #3d3d3f; font-size: 15px; }
+        li { margin-bottom: 6px; }
+
+        .badge {
+            display: inline-block;
+            background: #ede8fd;
+            color: #5b4fcf;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .contact-card {
+            background: #f5f5f7;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 12px;
+        }
+
+        .contact-card a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #6e6e73;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="icon"><span>S</span></div>
+    <h1>Synqo: AI Health Coach</h1>
+    <p>von DNZtech</p>
+</header>
+
+<nav>
+    <a href="#datenschutz">Datenschutz</a>
+    <a href="#support">Support</a>
+    <a href="#nutzungsbedingungen">Nutzungsbedingungen</a>
+</nav>
+
+<div class="container">
+
+    <!-- ── DATENSCHUTZ ───────────────────────────────────────────── -->
+    <section id="datenschutz">
+        <span class="badge">Datenschutz</span>
+        <h2>Datenschutzerklärung</h2>
+        <p>Zuletzt aktualisiert: Oktober 2026</p>
+        <p>Synqo verarbeitet Gesundheitsdaten. Deshalb steht hier genau, was mit ihnen passiert. Kurz gesagt: Synqo hat keinen eigenen Server, keine Benutzerkonten, keine Werbung und keine Analyse-Tools. Deine Daten bleiben auf deinem iPhone und in deiner eigenen iCloud. Wir als Entwickler erhalten keine deiner Daten.</p>
+
+        <h3>Verantwortlicher</h3>
+        <p>DNZtech (Robin Limprecht), Kontakt: numlyapp@icloud.com</p>
+
+        <h3>Welche Daten verarbeitet die App?</h3>
+        <ul>
+            <li><strong>Apple Health (Lesen):</strong> Schlaf, Herzfrequenz, Ruhepuls, HRV, Schritte, Energieverbrauch, Training mit Strecke und Herzfrequenz, Atmung, Sauerstoffsättigung, Gewicht, Körperfett, Blutdruck, VO₂max, Achtsamkeit und, falls du es einschaltest, Zyklusdaten. Du entscheidest in der Health-Abfrage, welche Daten die App sehen darf.</li>
+            <li><strong>Apple Health (Schreiben):</strong> Nur wenn du es in der App auslöst oder in den Einstellungen erlaubst: Wasser, Ernährung, Körpermessungen (Gewicht, BMI, Körperfett, fettfreie Masse) und Achtsamkeitsminuten.</li>
+            <li><strong>Eigene Einträge:</strong> Mahlzeiten, Wasser, Körpermessungen, Gespräche mit dem Coach, gespeicherte Auswertungen und deine Einstellungen (Ziele, Schlafbedarf, Aufstehzeiten).</li>
+        </ul>
+        <p>Diese Daten werden für Anzeige, Scores (Erholung, Belastung, Schlaf), Auswertungen, Erinnerungen und Widgets auf deinem Gerät verwendet. Sie werden nicht verkauft, nicht für Werbung genutzt und nicht an uns übertragen. Apple Health-Daten werden nicht für Data-Mining oder zur Profilbildung genutzt.</p>
+
+        <h3>Speicherung und iCloud</h3>
+        <p>Die Daten liegen lokal auf deinem Gerät. Eigene Einträge werden über deine private iCloud (Apple CloudKit) gesichert und zwischen deinen Geräten abgeglichen. Dieser Speicher gehört zu deinem Apple-Konto, wir haben darauf keinen Zugriff. Zugangsschlüssel (siehe unten) liegen im Schlüsselbund deines Geräts.</p>
+
+        <h3>KI-Funktionen (optional)</h3>
+        <p>Die KI-Funktionen (Coach, Tages- und Wochenanalyse, Nährwertschätzung, Foto-Analyse von Mahlzeiten, Auslesen von Waagen-Screenshots) sind nur aktiv, wenn du in den Einstellungen einen eigenen API-Schlüssel eines Anbieters einträgst: Anthropic (Claude), OpenAI (ChatGPT) oder Google (Gemini). Wenn du eine KI-Funktion nutzt, sendet dein iPhone die dafür nötigen Daten (zum Beispiel Tageswerte, deine Frage, ein Foto oder ein Screenshot) <strong>direkt an den gewählten Anbieter</strong>. Wir sehen diese Daten nicht. Für die Verarbeitung gelten die Datenschutzbestimmungen des Anbieters. Dabei kann eine Übermittlung in Länder außerhalb der EU, zum Beispiel in die USA, stattfinden. Die Kosten für die Nutzung trägst du über deinen Schlüssel beim Anbieter. Ohne Schlüssel werden keine Daten an KI-Anbieter gesendet.</p>
+
+        <h3>Open Food Facts</h3>
+        <p>Bei der Lebensmittelsuche und beim Scannen eines Barcodes sendet die App den Suchbegriff oder die Barcode-Nummer an Open Food Facts (openfoodfacts.org), um Nährwerte zu finden. Es werden keine Gesundheitsdaten übertragen. Technisch bedingt erhält der Dienst deine IP-Adresse.</p>
+
+        <h3>intervals.icu (optional)</h3>
+        <p>Wenn du einen API-Schlüssel von intervals.icu einträgst, ruft die App deine Trainings- und Fitnessdaten direkt von dort ab. Der Schlüssel wird im Schlüsselbund gespeichert.</p>
+
+        <h3>Kamera und Fotos</h3>
+        <p>Die Kamera wird für Mahlzeit-Fotos und zum Scannen von Barcodes genutzt, Fotos nur, wenn du sie auswählst (zum Beispiel einen Waagen-Screenshot). Die Bilder werden auf deinem Gerät verarbeitet und nur dann an einen KI-Anbieter gesendet, wenn du die Foto-Analyse startest.</p>
+
+        <h3>Karten</h3>
+        <p>Die Strecke eines Trainings wird mit Apple Karten dargestellt. Dafür gelten die Datenschutzbestimmungen von Apple.</p>
+
+        <h3>Mitteilungen und Widgets</h3>
+        <p>Erinnerungen sind lokale Mitteilungen deines Geräts. Widgets lesen Tageswerte aus einem gemeinsamen Speicher auf deinem Gerät. Dabei verlassen keine Daten das Gerät.</p>
+
+        <h3>Keine Weitergabe, keine Werbung</h3>
+        <p>Synqo enthält keine Werbung, keine Tracker und keine Analyse-Dienste. Es gibt keine Registrierung.</p>
+
+        <h3>Löschen deiner Daten</h3>
+        <ul>
+            <li>Einträge in der App lassen sich dort löschen.</li>
+            <li>Löschst du die App, werden die lokalen Daten entfernt. Daten in deiner iCloud entfernst du unter Einstellungen → [dein Name] → iCloud → Speicher verwalten.</li>
+            <li>In Apple Health gespeicherte Werte löschst du in der Health-App. Die Freigaben änderst du unter Health → Teilen → Apps → Synqo.</li>
+            <li>API-Schlüssel kannst du in den Einstellungen der App entfernen.</li>
+        </ul>
+
+        <h3>Deine Rechte</h3>
+        <p>Du hast nach der DSGVO Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie ein Beschwerderecht bei einer Datenschutzaufsichtsbehörde. Da wir keine deiner Daten speichern, kannst du diese Rechte direkt über dein Gerät, dein Apple-Konto und die genannten Anbieter ausüben. Bei Fragen schreib uns.</p>
+
+        <h3>Kinder</h3>
+        <p>Synqo richtet sich nicht an Kinder.</p>
+
+        <h3>Änderungen</h3>
+        <p>Ändert sich diese Erklärung, wird die aktualisierte Version auf dieser Seite veröffentlicht.</p>
+    </section>
+
+    <!-- ── SUPPORT ───────────────────────────────────────────────── -->
+    <section id="support">
+        <span class="badge">Support</span>
+        <h2>Hilfe &amp; Kontakt</h2>
+        <p>Hast du eine Frage, einen Fehler entdeckt oder einen Verbesserungsvorschlag? Ich freue mich über deine Nachricht.</p>
+
+        <h3>Häufige Fragen</h3>
+        <ul>
+            <li><strong>Wie verbinde ich Apple Health?</strong><br>Öffne die Einstellungen (Zahnrad) → Apple Health und erlaube die gewünschten Daten. Später änderst du sie unter Health → Teilen → Apps → Synqo.</li>
+            <li><strong>Wie bekomme ich Garmin-Daten in die App?</strong><br>Aktiviere in Garmin Connect die Verbindung zu Apple Health. Synqo liest die Werte dann aus Apple Health.</li>
+            <li><strong>Wie schalte ich den KI-Coach frei?</strong><br>Trage unter Einstellungen → KI-Coach einen eigenen API-Schlüssel von Anthropic, OpenAI oder Google ein. Die Nutzung kostet je nach Anbieter.</li>
+            <li><strong>Wie trage ich Essen und Wasser ein?</strong><br>Auf der Seite Ernährung per Suche, Barcode oder Foto. Wasser trägst du auf Heute oder Ernährung über die Knöpfe ein.</li>
+            <li><strong>Wie trage ich eine Körpermessung ein?</strong><br>Im Tab Körper auf „Messung eintragen“. Du kannst einen Screenshot deiner Waagen-App wählen oder die Werte selbst eingeben.</li>
+            <li><strong>Wie lege ich Widgets an?</strong><br>Halte den Home-Bildschirm gedrückt, tippe auf „+“ und suche nach Synqo.</li>
+            <li><strong>Wie lösche ich meine Daten?</strong><br>Siehe Abschnitt „Löschen deiner Daten“ in der Datenschutzerklärung.</li>
+        </ul>
+
+        <h3>Kontakt</h3>
+        <div class="contact-card">
+            <p><strong>DNZtech</strong></p>
+            <p>E-Mail: <a href="mailto:numlyapp@icloud.com">numlyapp@icloud.com</a></p>
+        </div>
+    </section>
+
+    <!-- ── NUTZUNGSBEDINGUNGEN ───────────────────────────────────── -->
+    <section id="nutzungsbedingungen">
+        <span class="badge">Nutzungsbedingungen</span>
+        <h2>Nutzungsbedingungen</h2>
+        <p>Durch die Nutzung von Synqo stimmst du den folgenden Bedingungen zu.</p>
+
+        <h3>Zweck der App</h3>
+        <p>Synqo dient der Information und Orientierung rund um Fitness, Schlaf, Ernährung und Körperwerte. Die App ist kein Medizinprodukt und stellt keine medizinische Beratung, Diagnose oder Behandlungsempfehlung dar. Bei gesundheitlichen Fragen wende dich an eine Ärztin oder einen Arzt.</p>
+
+        <h3>Scores und KI-Antworten</h3>
+        <p>Scores, Prognosen und Empfehlungen sind Schätzungen aus deinen Daten. Antworten der KI können unvollständig oder falsch sein. Prüfe wichtige Angaben selbst. Die Nutzung erfolgt auf eigene Verantwortung.</p>
+
+        <h3>Dienste von Dritten</h3>
+        <p>Für KI-Funktionen verwendest du einen eigenen API-Schlüssel. Kosten und Nutzungsbedingungen des jeweiligen Anbieters gelten zusätzlich und liegen in deiner Verantwortung. Dasselbe gilt für Apple Health, iCloud, Open Food Facts und intervals.icu.</p>
+
+        <h3>Lizenz</h3>
+        <p>Synqo wird dir für den persönlichen Gebrauch zur Verfügung gestellt. Es ist nicht gestattet, die App zu kopieren, zu verändern oder weiterzuverkaufen.</p>
+
+        <h3>Haftungsausschluss</h3>
+        <p>Die App wird ohne Gewähr bereitgestellt. Für Rechenfehler, Datenverlust oder Schäden, die durch die Nutzung entstehen, haften wir nur bei Vorsatz und grober Fahrlässigkeit sowie in den Fällen, in denen das Gesetz zwingend eine Haftung vorsieht.</p>
+
+        <h3>Marken</h3>
+        <p>Apple, Apple Health, iCloud, Garmin, Claude, ChatGPT, Gemini und weitere genannte Namen sind Marken ihrer jeweiligen Inhaber. Synqo steht in keiner Verbindung zu diesen Unternehmen und wird von ihnen nicht unterstützt.</p>
+
+        <h3>Änderungen</h3>
+        <p>Wir behalten uns vor, diese Bedingungen jederzeit zu aktualisieren. Die aktuelle Version ist stets auf dieser Seite abrufbar.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 DNZtech · Synqo: AI Health Coach · Alle Rechte vorbehalten</p>
+</footer>
+
+</body>
+</html>
