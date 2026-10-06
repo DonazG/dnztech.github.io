@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numly – DNZtech</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #48C3F2, #146EC8);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        header .icon span {
+            color: white;
+            font-size: 36px;
+            font-weight: 200;
+            letter-spacing: -2px;
+        }
+
+        header h1 { font-size: 28px; font-weight: 700; }
+        header p  { color: #6e6e73; font-size: 15px; margin-top: 4px; }
+
+        nav {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            padding: 14px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover { text-decoration: underline; }
+
+        .container {
+            max-width: 720px;
+            margin: 48px auto;
+            padding: 0 24px;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 36px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 20px 0 8px;
+            color: #1d1d1f;
+        }
+
+        p  { color: #3d3d3f; font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 20px; color: #3d3d3f; font-size: 15px; }
+        li { margin-bottom: 6px; }
+
+        .badge {
+            display: inline-block;
+            background: #e8f4fd;
+            color: #1a73e8;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .contact-card {
+            background: #f5f5f7;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 12px;
+        }
+
+        .contact-card a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #6e6e73;
+            font-size: 13px;
+        }
+        .lang {
+            text-align: center;
+            padding: 10px 0 0;
+            font-size: 13px;
+            color: #6e6e73;
+        }
+        .lang a { color: #1a73e8; text-decoration: none; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="icon"><span>=</span></div>
+    <h1>Numly</h1>
+    <p>by DNZtech</p>
+    <div class="lang"><a href="index.html">Deutsch</a> · English</div>
+</header>
+
+<nav>
+    <a href="#privacy">Privacy</a>
+    <a href="#support">Support</a>
+    <a href="#terms">Terms of Use</a>
+</nav>
+
+<!-- ── PRIVACY ───────────────────────────────────────────────────── -->
+<div class="container">
+
+    <section id="privacy">
+        <span class="badge">Privacy Policy</span>
+        <h2>Privacy</h2>
+        <p>Last updated: October 2026</p>
+
+        <p>Protecting your personal data matters to us. This privacy policy explains how the <strong>Numly</strong> app handles your data.</p>
+
+        <h3>What data is collected?</h3>
+        <p><strong>None.</strong> Numly does not collect, store or transmit any personal data. The app works entirely offline and without registration.</p>
+
+        <h3>Local data</h3>
+        <p>A few settings (such as your chosen accent color and appearance) are stored only on your device and never leave it.</p>
+
+        <h3>In-app purchases</h3>
+        <p>Numly offers optional tips through Apple's StoreKit framework. Payments are handled exclusively by Apple. We have no access to your payment details.</p>
+
+        <h3>Third parties</h3>
+        <p>Numly uses no analytics tools, ad networks or other third-party services.</p>
+
+        <h3>Children</h3>
+        <p>Numly is suitable for all ages. Because no data is collected, there are no particular risks for minors.</p>
+
+        <h3>Changes</h3>
+        <p>If this privacy policy changes, the updated version will be published on this page.</p>
+    </section>
+
+    <!-- ── SUPPORT ───────────────────────────────────────────────── -->
+    <section id="support">
+        <span class="badge">Support</span>
+        <h2>Help &amp; Contact</h2>
+
+        <p>Do you have a question, found a bug or have an idea for an improvement? I'd love to hear from you.</p>
+
+        <h3>Frequently asked questions</h3>
+        <ul>
+            <li><strong>How do I turn on scientific mode?</strong><br>
+                Rotate your iPhone to landscape — the scientific calculator opens automatically. In portrait you can switch it on using the <strong>Std. / Sci.</strong> button at the top.</li>
+            <li><strong>How do I open the percentage calculator or the unit converter?</strong><br>
+                Tap the grid icon in the top left of the calculator, then pick the tool you need. Both are also available in Settings under “Tools”.</li>
+            <li><strong>How do I change the color?</strong><br>
+                Open Settings (···) and pick one of the suggested colors under “Accent color”, or choose your own.</li>
+            <li><strong>Can I use a keyboard?</strong><br>
+                Yes. On Mac and on iPad with a hardware keyboard you can type digits and operators directly; Enter calculates, Esc clears. In the percentage calculator, Tab switches between the input fields.</li>
+            <li><strong>Is there a Mac version?</strong><br>
+                Yes. Numly is a universal purchase — if you own it on iPhone or iPad, you can install it on your Mac at no extra cost.</li>
+            <li><strong>Can I undo a tip?</strong><br>
+                You can review purchases in your device settings under <em>Apple Account → Purchases</em>. For refunds, please contact Apple.</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <div class="contact-card">
+            <p><strong>DNZtech</strong></p>
+            <p>Email: <a href="mailto:numlyapp@icloud.com">numlyapp@icloud.com</a></p>
+        </div>
+    </section>
+
+    <!-- ── TERMS ─────────────────────────────────────────────────── -->
+    <section id="terms">
+        <span class="badge">Terms of Use</span>
+        <h2>Terms of Use</h2>
+
+        <p>By using <strong>Numly</strong> you agree to the following terms.</p>
+
+        <h3>License</h3>
+        <p>Numly is provided to you for personal, non-commercial use. You may not copy, modify or resell the app.</p>
+
+        <h3>Disclaimer</h3>
+        <p>The app is provided without any warranty, express or implied. We accept no liability for calculation errors or data loss. Please always verify important calculations yourself.</p>
+
+        <h3>In-app purchases</h3>
+        <p>The tip options are voluntary payments that support development. They unlock no additional features and are non-refundable unless Apple decides otherwise.</p>
+
+        <h3>Changes</h3>
+        <p>We reserve the right to update these terms at any time. The current version is always available on this page.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 DNZtech · Numly · All rights reserved</p>
+</footer>
+
+</body>
+</html>
