@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendsnap: Fotos mit Freunden – Donaz Entertainment</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        header .icon span {
+            color: white;
+            font-size: 36px;
+            line-height: 1;
+        }
+
+        header h1 { font-size: 28px; font-weight: 700; }
+        header p  { color: #6e6e73; font-size: 15px; margin-top: 4px; }
+
+        nav {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            padding: 14px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover { text-decoration: underline; }
+
+        .container {
+            max-width: 720px;
+            margin: 48px auto;
+            padding: 0 24px;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 36px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 20px 0 8px;
+            color: #1d1d1f;
+        }
+
+        p  { color: #3d3d3f; font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 20px; color: #3d3d3f; font-size: 15px; }
+        li { margin-bottom: 6px; }
+
+        .badge {
+            display: inline-block;
+            background: #e3f4fb;
+            color: #1666b8;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .contact-card {
+            background: #f5f5f7;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 12px;
+        }
+
+        .contact-card a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #6e6e73;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="icon"><span>📸</span></div>
+    <h1>Friendsnap: Fotos mit Freunden</h1>
+    <p>von Donaz Entertainment</p>
+</header>
+
+<nav>
+    <a href="#datenschutz">Datenschutz</a>
+    <a href="#support">Support</a>
+    <a href="#nutzungsbedingungen">Nutzungsbedingungen</a>
+    <a href="friendsnap-en.html">English</a>
+</nav>
+
+<div class="container">
+    <section id="datenschutz"><span class="badge">Datenschutz</span>
+<h2>Datenschutzerklärung</h2>
+<p>Zuletzt aktualisiert: Oktober 2026</p>
+<p>Friendsnap ist eine App, mit der du Fotos und kurze Videos mit deinen Freunden tauschst. Es gibt keine Registrierung, keine Werbung und keine Analyse- oder Tracking-Dienste. Als Speicher nutzt die App ausschließlich Apples iCloud (CloudKit). Inhalte werden auf deinem Gerät verschlüsselt, bevor sie hochgeladen werden.</p>
+
+<h3>Verantwortlicher</h3>
+<p>Donaz Entertainment by Robin Limprecht, Kontakt über <a href="https://donazentertainment.com/kontakt.html">das Kontaktformular</a>.</p>
+
+<h3>Wie funktioniert die Identität ohne Anmeldung?</h3>
+<p>Friendsnap nutzt die anonyme Benutzerkennung deines iCloud-Kontos (CloudKit-Benutzer-ID). Deinen Namen, deine E-Mail-Adresse oder Apple-ID sieht und speichert Friendsnap nicht. Diese Kennung wird in deinem Einladungslink verwendet, damit Freunde dir etwas schicken können. Du brauchst dafür ein angemeldetes iCloud-Konto.</p>
+
+<h3>Welche Daten verarbeitet die App?</h3>
+<ul>
+<li><strong>Fotos, Videos, Texte, Reaktionen:</strong> Wenn du etwas sendest, wird der Inhalt auf deinem Gerät mit AES-256-GCM verschlüsselt und als Datensatz in der öffentlichen CloudKit-Datenbank des Friendsnap-Containers abgelegt. Den Schlüssel kennen nur du und der Empfänger: Er steckt im Einladungslink, mit dem ihr euch verbunden habt, und liegt im iCloud-Schlüsselbund. Wir und Apple können den Inhalt nicht lesen.</li>
+<li><strong>Metadaten:</strong> Unverschlüsselt sind nur technisch nötige Angaben: Kennung von Absender und Empfänger, Zeitpunkt und die verschlüsselte Datei. Sie werden gebraucht, damit Nachrichten zugestellt und Mitteilungen ausgelöst werden.</li>
+<li><strong>Profil:</strong> Anzeigename, Profilbild und optional dein Geburtstag (Tag und Monat) werden verschlüsselt an deine Freunde gesendet. Auf dem Gerät liegen sie lokal.</li>
+<li><strong>Freundesliste, Verlauf, Serien, Einstellungen:</strong> Sie liegen lokal auf deinem Gerät (und in deinem iCloud-Backup, wenn du es nutzt).</li>
+<li><strong>Kamera, Mikrofon, Fotos:</strong> Nur mit deiner Erlaubnis und nur, um Bilder und Videos aufzunehmen, auszuwählen oder zu sichern. Das passiert auf dem Gerät.</li>
+<li><strong>Kontakte:</strong> Nur mit deiner Erlaubnis und nur, um dir deine Kontakte zur Auswahl zu zeigen, wenn du jemandem den Einladungslink schicken willst. Kontakte werden nicht hochgeladen oder gespeichert. Die Nachricht sendest du selbst über iMessage oder eine andere App.</li>
+<li><strong>Mitteilungen:</strong> Push-Mitteilungen werden über Apples Push-Dienst (APNs) und CloudKit-Abonnements zugestellt. Texte wie „Anna hat dir etwas gesendet“ setzt dein Gerät selbst zusammen.</li>
+<li><strong>Abo:</strong> Friendsnap Premium wird über den App Store abgerechnet. Zahlungsdaten erhalten wir nie, der Kaufstatus wird auf dem Gerät über StoreKit geprüft.</li>
+</ul>
+<p>Alle Daten werden nur genutzt, um die App-Funktionen bereitzustellen. Sie werden nicht verkauft, nicht für Werbung genutzt und nicht zur Profilbildung verwendet.</p>
+
+<h3>Empfänger und Speicherdauer</h3>
+<p>Dienstleister ist ausschließlich Apple (iCloud/CloudKit, APNs, App Store). Verschlüsselte Datensätze bleiben in CloudKit gespeichert, bis sie gelöscht werden. Löscht du ein Foto oder alle Daten in der App, entfernt das deine lokale Kopie. Möchtest du, dass auch Server-Datensätze von dir entfernt werden, schreib uns über das Kontaktformular.</p>
+
+<h3>Löschen und Widerrufen</h3>
+<ul>
+<li>In den Einstellungen löschst du mit „Alle Daten löschen“ deine lokalen Daten.</li>
+<li>Berechtigungen (Kamera, Mikrofon, Fotos, Kontakte, Mitteilungen) änderst du jederzeit in den iOS-Einstellungen.</li>
+<li>Freunde kannst du in der App entfernen oder stummschalten.</li>
+<li>Das Abo kündigst du in den Einstellungen deiner Apple-ID unter „Abonnements“.</li>
+</ul>
+
+<h3>Deine Rechte</h3>
+<p>Du hast nach der DSGVO Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie ein Beschwerderecht bei einer Datenschutzaufsichtsbehörde. Rechtsgrundlage der Verarbeitung ist die Erfüllung des Nutzungsvertrags (Art. 6 Abs. 1 lit. b DSGVO) und deine Einwilligung bei Berechtigungen (lit. a).</p>
+
+<h3>Kinder</h3>
+<p>Friendsnap richtet sich nicht gezielt an Kinder unter 13 Jahren. Wer in der EU jünger als 16 ist, braucht die Zustimmung der Eltern.</p>
+
+<h3>Änderungen</h3>
+<p>Ändert sich diese Erklärung, wird die aktualisierte Version auf dieser Seite veröffentlicht.</p>
+    </section>
+    <section id="support"><span class="badge">Support</span>
+<h2>Hilfe &amp; Kontakt</h2>
+<p>Hast du eine Frage, einen Fehler entdeckt oder einen Wunsch? Schreib uns.</p>
+<h3>Häufige Fragen</h3>
+<ul>
+<li><strong>Wie füge ich Freunde hinzu?</strong><br>Tippe auf der Freunde-Seite auf „Freund hinzufügen“ und schick deinen Link per iMessage, WhatsApp, Telegram, Instagram oder als Link. Öffnet dein Freund ihn, seid ihr verbunden.</li>
+<li><strong>Fotos kommen nicht an.</strong><br>Beide brauchen ein angemeldetes iCloud-Konto und Internet. Bitte öffnet beide den Einladungslink des jeweils anderen in der aktuellen App-Version. Wenn das nicht hilft, nenne uns die Uhrzeit des Versuchs.</li>
+<li><strong>Wie lege ich das Widget an?</strong><br>Home-Bildschirm gedrückt halten, „+“, Friendsnap wählen und einen Freund einstellen.</li>
+<li><strong>Was kostet Premium?</strong><br>2,99 € im Monat oder 28,99 € im Jahr (7 Tage kostenlos testen). Kündigung jederzeit in den Apple-ID-Abonnements.</li>
+<li><strong>Warum zeigt der Preis eine andere Währung?</strong><br>Der Preis richtet sich nach dem Land deiner Apple-ID.</li>
+</ul>
+<h3>Kontakt</h3>
+<div class="contact-card"><p><strong>Donaz Entertainment by Robin Limprecht</strong></p>
+<p><a href="https://donazentertainment.com/kontakt.html">Zum Kontaktformular</a></p></div>
+    </section>
+    <section id="nutzungsbedingungen"><span class="badge">Nutzungsbedingungen</span>
+<h2>Nutzungsbedingungen</h2>
+<p>Durch die Nutzung von Friendsnap stimmst du den folgenden Bedingungen zu.</p>
+<h3>Inhalte und Verhalten</h3>
+<p>Du bist für die Inhalte verantwortlich, die du sendest. Verboten sind rechtswidrige, belästigende, gewaltverherrlichende oder sexuell explizite Inhalte sowie Inhalte, an denen du keine Rechte hast oder die Personen ohne ihr Einverständnis zeigen. Du kannst Freunde jederzeit entfernen oder stummschalten.</p>
+<h3>Premium-Abo</h3>
+<p>Friendsnap Premium verlängert sich automatisch (monatlich oder jährlich), wenn du nicht mindestens 24 Stunden vor Ablauf in den Apple-ID-Einstellungen kündigst. Die Abrechnung erfolgt über deine Apple-ID. Ein kostenloser Testzeitraum endet automatisch in das bezahlte Abo, wenn du nicht vorher kündigst. Es gelten außerdem Apples Standard-Lizenzbedingungen für Apps.</p>
+<h3>Lizenz</h3>
+<p>Friendsnap wird dir für den persönlichen Gebrauch zur Verfügung gestellt. Es ist nicht gestattet, die App zu kopieren, zu verändern oder weiterzuverkaufen.</p>
+<h3>Haftungsausschluss</h3>
+<p>Die App wird ohne Gewähr bereitgestellt. Für Datenverlust oder Schäden durch die Nutzung haften wir nur bei Vorsatz und grober Fahrlässigkeit sowie in den Fällen, in denen das Gesetz zwingend eine Haftung vorsieht.</p>
+<h3>Marken</h3>
+<p>Apple, iCloud, iMessage, WhatsApp, Telegram, Instagram und weitere genannte Namen sind Marken ihrer jeweiligen Inhaber. Friendsnap steht in keiner Verbindung zu diesen Unternehmen.</p>
+<h3>Änderungen</h3>
+<p>Wir behalten uns vor, diese Bedingungen zu aktualisieren. Die aktuelle Version ist stets auf dieser Seite abrufbar.</p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2026 Donaz Entertainment by Robin Limprecht · Friendsnap · Alle Rechte vorbehalten</p>
+</footer>
+
+</body>
+</html>
