@@ -152,6 +152,7 @@
         <ul>
             <li><strong>Apple Reminders:</strong> With your permission, Tasklo reads your reminders and lists (title, notes, due date, flag, lists and accounts) and creates, edits or deletes them when you do so in the app. This includes Exchange, Outlook and CalDAV accounts you have set up in System Settings. Syncing between your devices is handled by Apple (iCloud) or the respective account provider, not by Tasklo.</li>
             <li><strong>Google Tasks (optional, once available in the app):</strong> If you sign in with Google, Tasklo fetches your task lists and tasks directly from Google and writes your changes straight back. Sign-in happens on Google's own sign-in page (OAuth 2.0). Tasklo never sees or stores your Google password. The access token is kept in your device's Keychain and is readable only by Tasklo. Your email address is shown so you can see which account is connected.</li>
+            <li><strong>Location (optional, iPhone only):</strong> If you set a place on a reminder (“When arriving” or “When leaving”), Tasklo asks for the location permission “While using the app”. This lets Tasklo notify you when you arrive at or leave the place. The system (iOS) monitors the places on your device. Tasklo does not read, store or transmit your position. Only the chosen place (name, coordinate, radius) is saved in the reminder at Apple. Address search in the place sheet uses Apple Maps (MapKit) and sends your search terms to Apple.</li>
             <li><strong>Settings:</strong> Language, appearance, hidden lists, default list, times and switches. They are stored locally on your device.</li>
         </ul>
         <p>The data is used on your device for display, search, daily plan, notifications and widgets. It is not sold, not used for advertising and not transmitted to us.</p>
@@ -161,7 +162,7 @@
         <p>Text recognition in quick entry (title, date, time, list) uses Apple Intelligence and runs entirely on your device. No data is sent to us or to other providers. If Apple Intelligence is unavailable or turned off, Tasklo uses simple pattern matching, also on your device.</p>
 
         <h3>Notifications and widgets</h3>
-        <p>Notifications for Google tasks are local notifications on your device. For Apple reminders, Tasklo sets alarms in Apple Reminders that the system triggers. Widgets read a short list of today's tasks from shared storage on your device (App Group). No data leaves the device.</p>
+        <p>Notifications for Google tasks are local notifications on your device. For Apple reminders, Tasklo triggers notifications itself as local notifications (including place notifications on iPhone), or alternatively sets alarms in Apple Reminders that the system triggers. Widgets read a short list of today's tasks from shared storage on your device (App Group). No data leaves the device.</p>
 
         <h3>Sharing</h3>
         <p>When you share a reminder or list, Tasklo creates a text and hands it to your system's share sheet. You decide where it goes. Tasklo does not send anything on its own.</p>
@@ -174,7 +175,7 @@
             <li>Delete reminders in the app or in Apple Reminders, and tasks in Google Tasks.</li>
             <li>If you delete the app, its local settings are removed. Your reminders stay with Apple or Google.</li>
             <li>Disconnect Google in Tasklo under Settings → Accounts → Sign out. You can also revoke access at myaccount.google.com/permissions.</li>
-            <li>Change access to Reminders in System Settings under Privacy &amp; Security → Reminders.</li>
+            <li>Change access to Reminders in System Settings under Privacy &amp; Security → Reminders, and location access under Privacy &amp; Security → Location Services → Tasklo.</li>
         </ul>
 
         <h3>Your rights</h3>
